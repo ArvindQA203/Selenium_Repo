@@ -1,0 +1,20 @@
+
+<suite name="MyTestSuite">
+    <test name="MyTest">
+    <groups> 
+   			 <run>
+    <include name="smoke"/>
+    <include name="regression"/>
+    <include name="Integration"/>
+    <include name="UAT"/>
+    			</run>
+      </groups>
+        <classes>
+            <class name="test.courseCreation" />
+            <class name="test.logOutpage" />
+            <class name="test.moduleSearch" />
+        </classes>
+   
+    </test>
+</suite>
+
