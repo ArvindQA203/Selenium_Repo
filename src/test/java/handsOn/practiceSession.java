@@ -45,6 +45,7 @@ public class practiceSession {
 	   //  data = emailInput.getAttribute("value");
 	   //  assertEquals(data, "");
 	 
+	     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 	     driver.quit();
 
 	}
