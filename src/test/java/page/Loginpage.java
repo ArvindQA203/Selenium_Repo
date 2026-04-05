@@ -50,5 +50,13 @@ public class Loginpage {
         wait.until(ExpectedConditions.elementToBeClickable(logoutbutton)).click();
     }
     
-
+    public void logoutbutton1() {
+        //driver.findElement(logoutbutton).click();
+        wait.until(ExpectedConditions.elementToBeClickable(logoutbutton)).click();
+    }
+    public void threedotbt1() {
+        //driver.findElement(threedotlogbutt).click();
+        
+        wait.until(ExpectedConditions.elementToBeClickable(threedotlogbutt)).click();
+    }
 }
